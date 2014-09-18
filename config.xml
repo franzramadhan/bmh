@@ -21,6 +21,8 @@ Totalindo
 <plugin name="File" value="org.apache.cordova.FileUtils" />
 <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
 
+<gap:plugin name="com.adobe.plugins.gaplugin" />
+
 <icon src="assets/icon/hdpi.png" density="hdpi" />
 <icon src="assets/icon/mdpi.png" density="mdpi" />
 <icon src="assets/icon/xxhdpi.png" density="xxhdpi" />

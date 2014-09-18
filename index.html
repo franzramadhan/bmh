@@ -8,6 +8,14 @@
 
 
         <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+		<script>
+		var gaPlugin;
+
+		function onDeviceReady() {
+			gaPlugin = window.plugins.gaPlugin;
+			gaPlugin.init(successHandler, errorHandler, "UA-54945320-1", 10);
+		}
+		</script>
         <link rel="stylesheet" href="assets/css/jquery.mobile-1.4.3.min.css" />
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/js/jquery.mobile-1.4.3.min.js"></script>
