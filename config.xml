@@ -20,6 +20,8 @@ Totalindo
 
 <plugin name="File" value="org.apache.cordova.FileUtils" />
 <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+
 
 <gap:plugin name="com.adobe.plugins.gaplugin" />
 

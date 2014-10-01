@@ -19,7 +19,8 @@
         <link rel="stylesheet" href="assets/css/jquery.mobile-1.4.3.min.css" />
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/js/jquery.mobile-1.4.3.min.js"></script>
-    <script>
+        <script src="assets/js/jquery.zrssfeed.min.js"></script>
+        <script>
 
         var regex = new Array(),
                 it;
@@ -72,6 +73,12 @@
             toformat = rubah(toformat);
             document.form1.elements[b].value = toformat;
         }
+
+        $(document).on("pageinit", "#news", function (event){
+            $('#konten').rssfeed('http://detik.feedsportal.com/c/33613/f/656092/index.rss', {
+                limit: 5
+            });
+        });
 
 
         $( document ).on( "pageinit", "#calc", function( event ) {
@@ -197,9 +204,6 @@
             });
 
         });
-
-
-
     </script>
         <style>
             body {
