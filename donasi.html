@@ -54,11 +54,11 @@
                 <input type="text" name="donasi" id="donasi"/>
             </div>
             <div>
-                <label for="label">Transfer Via</label>
-                <label for="trf_via"><input type="radio" name="trf_via" id="trf_via" value="setor_tunai"/> Setor Tunai</label>
-                <label for="trf_via"><input type="radio" name="trf_via" id="trf_via" value="auto_debt" />Auto Debit</label>
-                <label for="trf_via"><input type="radio" name="trf_via" id="trf_via" value="atm" />ATM</label>
-                <label for="trf_via"><input type="radio" name="trf_via" id="trf_via" value="ebank" />E-Banking</label>
+                <label>Transfer Via</label>
+                <label for="setor_tunai"><input type="radio" name="trf_via" id="setor_tunai" value="setor_tunai"/> Setor Tunai</label>
+                <label for="auto_debit"><input type="radio" name="trf_via" id="auto_debit" value="auto_debt" />Auto Debit</label>
+                <label for="atm"><input type="radio" name="trf_via" id="atm" value="atm" />ATM</label>
+                <label for="ebanking"><input type="radio" name="trf_via" id="ebanking" value="ebank" />E-Banking</label>
             </div>
             <div>
                 <label for="program">Program</label>
@@ -69,24 +69,21 @@
             </div>
             <div>
                 <fieldset class="ui-grid-a">
-                    <label for="">Tanggal Transfer</label>
-                    <div class="ui-block-a" style="width: 33%"><select name="tanggal"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
-                    </div>
-                    <div class="ui-block-b" style="width: 33%"><select name="bulan"><option value="Januari">Januari</option><option value="Februari">Februari</option><option value="Maret">Maret</option><option value="April">April</option><option value="Mei">Mei</option><option value="Juni">Juni</option><option value="Juli">Juli</option><option value="Agustus">Agustus</option><option value="September">September</option><option value="Oktober">Oktober</option><option value="November">November</option><option value="Desember">Desember</option></select></div>
-                    <div class="ui-block-c" style="width: 33%"><select name="tahun"><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option></select></div>
+                    <label for="tanggal_transfer">Tanggal Transfer</label>
+                    <input type="text" data-role="date" data-inline="true" id="tanggal_transfer">
                 </fieldset>
             </div>
             <div>
                 <label for="bukti_trf">Bukti Transfer</label>
-                <input type="file" name="bukti_trf"/>
+                <input type="file" name="bukti_trf" id="bukti_trf"/>
             </div>
             <div>
                 <label for="keterangan">Keterangan</label>
-                <input type="text" name="keterangan"/>
+                <input type="text" name="keterangan" id="keterangan"/>
             </div>
             <div>
                 <label for="keyword">Kata Kunci</label>
-                <input type="text" name="keyword"/>
+                <input type="text" name="keyword" id="keyword"/>
             </div>
             <div>
                 <input type="submit" value="kirim"/>

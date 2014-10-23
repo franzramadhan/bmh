@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23219364-b064-4e6f-b935-1fd56ec94b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/donasi.html" afterPath="$PROJECT_DIR$/donasi.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lokasi.html" afterPath="$PROJECT_DIR$/lokasi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bmh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,18 +29,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-138.73077" vertical-offset="847" max-vertical-offset="5049">
+            <state vertical-scroll-proportion="-9.269231" vertical-offset="4213" max-vertical-offset="5049">
               <caret line="262" column="13" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lokasi.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lokasi.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lokasi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7659208" vertical-offset="2632" max-vertical-offset="3621">
-              <caret line="181" column="47" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="47" />
+            <state vertical-scroll-proportion="-12.538462" vertical-offset="711" max-vertical-offset="3587">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donasi.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="donasi.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/donasi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1972">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.50774527" vertical-offset="895" max-vertical-offset="2159">
+              <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -137,11 +136,11 @@
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/zis.html" />
-        <option value="$PROJECT_DIR$/donasi.html" />
         <option value="$PROJECT_DIR$/calc.html" />
         <option value="$PROJECT_DIR$/qurban.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lokasi.html" />
+        <option value="$PROJECT_DIR$/donasi.html" />
       </list>
     </option>
   </component>
@@ -324,7 +323,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -731,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donasi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1972">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2720">
@@ -755,18 +746,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lokasi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.538462" vertical-offset="711" max-vertical-offset="3587">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-138.73077" vertical-offset="847" max-vertical-offset="5049">
+        <state vertical-scroll-proportion="-9.269231" vertical-offset="4213" max-vertical-offset="5049">
           <caret line="262" column="13" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lokasi.html">
+    <entry file="file://$PROJECT_DIR$/donasi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7659208" vertical-offset="2632" max-vertical-offset="3621">
-          <caret line="181" column="47" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.50774527" vertical-offset="895" max-vertical-offset="2159">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
           <folding />
         </state>
       </provider>
